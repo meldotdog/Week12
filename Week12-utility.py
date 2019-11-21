@@ -13,3 +13,6 @@ def LoadFile(file):
             mList.append(line.rstrip('\n'))
 
     return mList
+
+#this is shit
+#I am dead
