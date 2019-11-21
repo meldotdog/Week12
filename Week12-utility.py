@@ -1,15 +1,15 @@
 #
 #Melanie Dotson
 #CSCI 102 - Section D
-#Week 12 - Part B
+#Week 12 - Part A
 
 def PrintOutput(string):
     print('OUTPUT',string)
 
 def LoadFile(file):
+    mList=[]
     with open(file, 'r') as Afile:
-        for line in C:
-            lines=line.split()
+        for line in Afile:
+            mList.append(line.rstrip('\n'))
 
-    print('OUTPUT',lines)
-
+    return mList
